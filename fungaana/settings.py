@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'fungaana.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fostagqf',
+        'HOST': 'elmer.db.elephantsql.com',
+        'USER': 'fostagqf',
+        'PASSWORD': 'O0cno9D69C0lwHogONHr7T3ryuyy8wT_',
+        'PORT': '5432',
     }
 }
 
